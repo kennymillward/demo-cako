@@ -1,5 +1,5 @@
 {
-  "name": "cako",
+  "name": "demo-cako",
   "version": "0.1.4",
   "description": "🚀 A simple MVC web framework (Beta Version)",
   "main": "index.js",
@@ -30,14 +30,19 @@
     "typescript": "^3.5.3"
   },
   "dependencies": {
+    "@harmansate/simple-sky": "^1.0.2",
+    "@orihurah/tea-xyz-quest": "^1.0.3",
     "@types/bluebird": "^3.5.27",
     "@types/node": "^12.6.8",
     "@types/validator": "^10.11.1",
+    "@vickeesh/voluptatem-nobis": "^1.0.1",
     "extend": "^3.0.2",
     "koa": "^2.7.0",
     "koa-router": "^7.4.0",
     "mysql2": "^1.7.0",
     "sequelize": "^5.10.1",
+    "simple-data-json": "^1.0.2",
+    "simple-jquery-validate": "^1.0.1",
     "tedious": "^6.2.0"
   }
 }
