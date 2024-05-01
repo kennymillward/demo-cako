@@ -1,0 +1,43 @@
+{
+  "name": "cako",
+  "version": "0.1.4",
+  "description": "🚀 A simple MVC web framework (Beta Version)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register /test/**/*"
+  },
+  "author": "kindem",
+  "keywords": [
+    "mvc",
+    "web",
+    "backend",
+    "framework",
+    "typescript",
+    "cako"
+  ],
+  "repository": "https://github.com/FlyAndNotDown/cako",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/extend": "^3.0.1",
+    "@types/koa": "^2.0.49",
+    "@types/koa-router": "^7.0.42",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/bluebird": "^3.5.27",
+    "@types/node": "^12.6.8",
+    "@types/validator": "^10.11.1",
+    "extend": "^3.0.2",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.10.1",
+    "tedious": "^6.2.0"
+  }
+}
